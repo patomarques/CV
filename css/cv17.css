@@ -1,0 +1,187 @@
+body{
+	padding:  20px 20px 30px;
+	font-family: 'Sahitya', serif;
+	max-width: 1350px;
+	/* background-color: #000;	
+	color: #fff; */
+}
+
+a{
+	color: #222;
+}
+
+.title{
+	border-top: dashed 2px #222;
+	border-bottom: dashed 2px #222;
+	padding: 10px 0;
+	font-family: 'Fauna One', serif;
+	margin: 25px 0;
+	padding: 15px 0;
+	font-size: 26px;
+}
+
+.title-experience{
+	font-size: 24px;
+}
+
+.title-name{
+	font-size: 70px;
+	letter-spacing: 2px;
+	font-family: 'Fauna One', serif;
+	word-spacing: 17px;
+	padding-left: 3px;
+}
+
+.profession{
+	font-size: 40px;	
+	margin-top: -10px;
+	font-family: 'Fauna One', serif;
+	word-spacing: 3px;	
+}
+
+.info-headers{
+	font-size: 18px;
+}
+
+.info-headers li:nth-child(1){
+	padding-left: 14px;
+}
+
+.info-headers .fa-map-marker{
+	margin-left: 4px;
+	margin-right: 10px;
+}
+.info-headers .fa-paper-plane{
+	margin: -2px 8px 0 0;		
+}
+.info-headers .fa-whatsapp{
+	margin: 0 8px 0 0;
+}
+.info-headers li p,
+.info-headers li a{
+	font-family: 'Fauna One', serif;
+}
+
+.info-contact{
+	display: block;
+	margin-top: -10px;
+}
+.info-contact li a{
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-family: 'Fauna One', serif;
+	background-color: #222;
+	padding: 2px 5px;
+	color: #FFF;
+
+}
+.info-contact li:nth-child(1){
+	padding-left: 12px;
+}
+
+.img-perfil i{
+	text-align: center;
+	padding: 20px;
+	font-size: 135px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.conteudo{
+
+	font-size: 20px;
+}
+
+.caracter-title{
+	font-size: 180px;
+	font-family: 'Marcellus', serif;
+	margin-top: -14px;
+	display: block;
+	font-weight: 300;
+}
+
+
+#sobre .fa-user-circle-o{
+	padding-right: 15px;
+}
+#sobre .conteudo{
+	line-height: 34px;
+	font-family: 'Sahitya', serif;
+}
+#educacional .fa-graduation-cap{
+	padding-right: 1px;
+}
+
+#educacional h3{
+	font-size: 26px;
+	margin-top: 0;
+}
+
+#educacional h4{
+	font-size: 20px;
+}
+#educacional p{
+	font-size: 20px;
+}
+#educacional i{
+	padding: 0 5px;
+}
+
+#educacional .fa-university{
+	font-size: 15px;
+}
+
+#habilidades .fa-terminal{
+	padding-right: 15px;
+}
+
+#experiencia p{
+	margin: 0;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+#experiencia .trampo{
+	margin-bottom: 20px;
+}
+
+.content-sahitya{
+	font-family: 'Sahitya', serif !important;
+}
+
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 700;
+	padding: 3px 30px 2px 10px;
+	color: #d4d4d4;
+	background-color: #000;
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
+
+.progress-bar-success{
+	background-color: #000;	
+}
+
+#habilidades li{
+	font-size: 18px;
+	font-family: 'Sahitya', serif !important;
+}
+
+#habilidades li i{
+	font-size: 15px;
+}
+
+.list-skills li div:nth-child(1){
+	width: 50%;
+}
