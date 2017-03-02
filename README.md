@@ -1,4 +1,6 @@
 # CV17
 My Personal CV 2017
 
-bower install: jquery, bootstrap, font-awesome
+coding using simple html5 & css3
+
+bower install: bootstra & font-awesome
