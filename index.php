@@ -25,7 +25,7 @@
 				<h2 class="profession">DESENVOLVEDOR WEB * FULL STACK</h2>				
 				<ul class="list-inline info-headers">
 					<li>
-						<p>27 ANOS</p>	
+						<p>28 ANOS</p>
 					</li>
 					<li>
 						<p><i class="fa fa-map-marker" aria-hidden="true"></i> RECIFE / PE</p>
@@ -45,7 +45,7 @@
 								http://lnked.in/dayvsonmarques	
 							</a>
 						</li>
-						<!-- <li> | </li> -->
+						 <li>|</li>
 						<li>
 							<a href="kaweek.net/dayvsonmarques" target="_blank" title="Portfólio Kaweek">							
 								<i class="fa fa-code" aria-hidden="true"></i>
@@ -214,11 +214,11 @@
 						Woocommerce
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 6; $i++){ ?>
+						<?php for($i=0; $i < 4; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>								
 						<i class="fa fa-star-half-o" aria-hidden="true"></i>							
-						<?php for($i=0; $i < 3; $i++){ ?>
+						<?php for($i=0; $i < 5; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -228,11 +228,11 @@
 						Opencart 2+
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 8; $i++){ ?>
+						<?php for($i=0; $i < 7; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>			
 
-						<?php for($i=0; $i < 2; $i++){ ?>
+						<?php for($i=0; $i < 3  ; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -298,7 +298,7 @@
 					<li>PhpStorm IDE</li>	
 					<li>MySQL Workbench</li>
 					<li>git | bower | composer</li>					
-					<li>Integração gateway pagamento <br> { PagSeguro & CIELO }</li>
+					<li>Integração gateway pagamento <br> { PagSeguro, CIELO & PayU  }</li>
 					<li>Métodologia Ágeis : { SCRUM & XP }</li>
 					<li>Banco de dados: { MySQL y PostgreeSQL }</li>
 				</ul>
@@ -313,16 +313,32 @@
 			<div class="col-md-12">
 				<h2 class=title><i class="fa fa-laptop" aria-hidden="true"></i> Experiência</h2>	
 			</div>
-		</div>		
+		</div>
 
+        <ul class="list-unstyled row">
+            <li class="col-md-6 trampo">
+                <h4 class="title-experience">Web Dev Fullstack</h4>
+                <p><b>Cargo:</b> Desenvolvedor Web (freelancer) </p>
+                <p><b>Período:</b> Mar/2017 - Atualmente</p>
+                <p><b>Tecnologias:</b> Wordpress, Opencart, Laravel 5+, PHP OO, Bootstrap, html5, css3/sass, javascrit/JQuery/Vue.js;</p>
+                <p><b>Atividades:</b> desenvolvimento de sites e lojas virtuais; Correção de falhas e customização de sites já existentes.</p>
+            </li>
+            <li class="col-md-6 trampo">
+                <h4 class="title-experience">Bold Comunicação</h4>
+                <p><b>Cargo:</b> Desenvolvedor Web </p>
+                <p><b>Período:</b> Dez/2015 - Fev/2017</p>
+                <p><b>Tecnologias:</b> Wordpress, Opencart, Laravel 5+, PHP OO, Bootstrap, html5, css3/sass, javascrit/JQuery/Vue.js;</p>
+                <p><b>Atividades:</b> desenvolvimento de sites e lojas virtuais; mapeamento, criação e gerenciamento do banco de dados; implementação do backend (mvc); construção de frontend : códificar de PSD para html5/css3; testar responsivo / cross browser. integração com api's de pagamento (pagseguro, cielo & payu) e redes sociais (fb & ig); Analise de performance & SEO.</p>
+            </li>
+        </ul>
 		<ul class="list-unstyled row">
-			<li class="col-md-6 trampo">
-				<h4 class="title-experience">Bold Comunicação</h4>
-				<p><b>Cargo:</b> Desenvolvedor Web </p>
-				<p><b>Período:</b> Dez/2015 - Fev/2017</p>
-				<p><b>Tecnologias:</b> Wordpress, Opencart, Laravel 5+, PHP OO, Bootstrap, html5, css3/sass, javascrit/JQuery/Vue.js;</p>
-				<p><b>Atividades:</b> desenvolvimento de sites e lojas virtuais; mapeamento, criação e gerenciamento do banco de dados; implementação do backend (mvc); construção de frontend : códificar de PSD para html5/css3; testar responsivo / cross browser. integração com api's de pagamento (pagseguro & cielo) e redes sociais (fb & ig); Analise de performance & SEO.</p>
-			</li>
+            <li class="col-md-6 trampo">
+                <h4 class="title-experience">Kommu Comunicação</h4>
+                <p><b>Cargo: </b>Desenvolvedor Frontend (Freelancer)</p>
+                <p><b>Período: </b>Ago/2015 - Nov/2015</p>
+                <p><b>Tecnologias: </b>OpenCart, PHP, html5, css3, javascript & MySQL;</p>
+                <p><b>Atividades: </b>Desenvolvimento frontend, correção de falhas funcionais e visuais (js, responsivo, cross-browser...), customização de temas para wordpress e integração com API SEO e Social marketing.</p>
+            </li>
 			<li class="col-md-6 trampo">
 				<h4 class="title-experience">Veleja</h4>
 				<p><b>Cargo: </b>Desenvolvedor Backend (Freelancer)</p>
