@@ -9,8 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sahitya" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/cv17.css">
-
+	<link rel="stylesheet" href="css/cv18.css">
 
 </head>
 <body>
