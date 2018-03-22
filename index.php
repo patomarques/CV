@@ -144,12 +144,12 @@
 						javascript
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 7; $i++){ ?>
+						<?php for($i=0; $i < 5; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>
 						<i class="fa fa-star-half-o" aria-hidden="true"></i>
-						<?php for($i=0; $i < 2; $i++){ ?>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<?php for($i=0; $i < 4; $i++){ ?>
+						<i class="fa fa-star-o  " aria-hidden="true"></i>
 						<?php } ?>
 					</div>
 				</li>
