@@ -24,7 +24,7 @@
 				<h2 class="profession">DESENVOLVEDOR WEB * FULL STACK</h2>				
 				<ul class="list-inline info-headers">
 					<li>
-						<p>28 ANOS</p>
+						<p><?php echo date('Y') - 1989; ?> ANOS</p>
 					</li>
 					<li>
 						<p><i class="fa fa-map-marker" aria-hidden="true"></i> RECIFE / PE</p>
@@ -71,14 +71,13 @@
 		<div class="row">
 			<div class="col-md-12">
 					<p class="conteudo">Desenvolvedor web desde 2010, com experiência em backend e frontend.<br>
-					Entusiasta em tecnologia opensource, wordpress e soluções voltadas para comércio online.<br>
-					Desenvolvo sites responsivos, aplicações web & lojas online, corrijo bugs e faço café.<br>
-					Concepção | Criação | Implementação | Códificação | Integração | Testes | Prototipação</p>			
+					Entusiasta em tecnologias de código aberto e no desenvolvimento de sites / aplicações web com PHP (wordpress e laravel).<br>
+					Desenvolvo sites responsivos, aplicações web & customizações voltadas para comércio online.<br>
+					Concepção | Criação | Implementação | Códificação | Integração | Testes | Prototipação | Infraestrutura e Arquitetura de servidor</p>
 			</div>
 		</div>	
 	</section>
 
-	
 	<section id="educacional" class="container content-sahitya">
 		<div class="row">
 			<div class="col-md-12">
@@ -98,7 +97,6 @@
 				<p><i class="fa fa-clock-o" aria-hidden="true"></i> Concluído em Ago/2013 (150 horas)</p>	
 			</li>
 		</ul>
-		
 	</section>
 
 	<section id="habilidades" class="container content-sahitya">
@@ -149,7 +147,7 @@
 						<?php } ?>
 						<i class="fa fa-star-half-o" aria-hidden="true"></i>
 						<?php for($i=0; $i < 4; $i++){ ?>
-						<i class="fa fa-star-o  " aria-hidden="true"></i>
+						<i class="fa fa-star-o " aria-hidden="true"></i>
 						<?php } ?>
 					</div>
 				</li>
@@ -158,10 +156,10 @@
 						php oo
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 8; $i++){ ?>
+						<?php for($i=0; $i < 7; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>						
-						<?php for($i=0; $i < 2; $i++){ ?>
+						<?php for($i=0; $i < 3; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -171,14 +169,28 @@
 						sql
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 9; $i++){ ?>
+						<?php for($i=0; $i < 7; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>								
-						<?php for($i=0; $i < 1; $i++){ ?>
+						<?php for($i=0; $i < 3; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
 				</li>
+                <li>
+                    <div class="pull-left">
+                        git
+                    </div>
+                    <div class="pull-right">
+                        <?php for($i=0; $i < 6; $i++){ ?>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        <?php } ?>
+
+                        <?php for($i=0; $i < 4  ; $i++){ ?>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <?php } ?>
+                    </div>
+                </li>
 				<li>
 					<div class="pull-left">
 						design responsivo
@@ -200,10 +212,10 @@
 						Wordpress
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 8; $i++){ ?>
+						<?php for($i=0; $i < 7; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>																			
-						<?php for($i=0; $i < 2; $i++){ ?>
+						<?php for($i=0; $i < 3; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -222,20 +234,7 @@
 						<?php } ?>
 					</div>
 				</li>
-				<li>
-					<div class="pull-left">
-						Opencart 2+
-					</div>
-					<div class="pull-right">
-						<?php for($i=0; $i < 7; $i++){ ?>
-						<i class="fa fa-star" aria-hidden="true"></i>							
-						<?php } ?>			
 
-						<?php for($i=0; $i < 3  ; $i++){ ?>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
-						<?php } ?>
-					</div>
-				</li>
 				<li>
 					<div class="pull-left">
 						Laravel 5.3+
@@ -296,7 +295,6 @@
 				<ul class="list-unstyled">
 					<li>PhpStorm IDE</li>	
 					<li>MySQL Workbench</li>
-					<li>git | bower | composer</li>					
 					<li>Integração gateway pagamento <br> { PagSeguro, CIELO & PayU  }</li>
 					<li>Métodologia Ágeis : { SCRUM & XP }</li>
 					<li>Banco de dados: { MySQL y PostgreeSQL }</li>
@@ -316,9 +314,16 @@
 
         <ul class="list-unstyled row">
             <li class="col-md-6 trampo">
-                <h4 class="title-experience">Web Dev Fullstack</h4>
-                <p><b>Cargo:</b> Desenvolvedor Web (freelancer) </p>
-                <p><b>Período:</b> Mar/2017 - Atualmente</p>
+                <h4 class="title-experience">Idealizza</h4>
+                <p><b>Cargo:</b> Desenvolvedor Web Fullstack</p>
+                <p><b>Período:</b> Mar/2018 - Atualmente</p>
+                <p><b>Tecnologias:</b> html5, css3, javascript, Angular.js, JQuery, CakePhp2, MySQL & sqlServer.</p>
+                <p><b>Atividades:</b> desenvolvimento e manutenção de aplicações web: sistemas de EAD & e-commerces;</p>
+            </li>
+            <li class="col-md-6 trampo">
+                <h4 class="title-experience">Freelancer</h4>
+                <p><b>Cargo:</b> Desenvolvedor Web Fullstack </p>
+                <p><b>Período:</b> Mar/2017 - Mar/2018</p>
                 <p><b>Tecnologias:</b> Wordpress, Opencart, Laravel 5+, PHP OO, Bootstrap, html5, css3/sass, javascrit/JQuery/Vue.js;</p>
                 <p><b>Atividades:</b> desenvolvimento de sites e lojas virtuais; Correção de falhas e customização de sites já existentes.</p>
             </li>
@@ -329,23 +334,16 @@
                 <p><b>Tecnologias:</b> Wordpress, Opencart, Laravel 5+, PHP OO, Bootstrap, html5, css3/sass, javascrit/JQuery/Vue.js;</p>
                 <p><b>Atividades:</b> desenvolvimento de sites e lojas virtuais; mapeamento, criação e gerenciamento do banco de dados; implementação do backend (mvc); construção de frontend : códificar de PSD para html5/css3; testar responsivo / cross browser. integração com api's de pagamento (pagseguro, cielo & payu) e redes sociais (fb & ig); Analise de performance & SEO.</p>
             </li>
-        </ul>
-		<ul class="list-unstyled row">
             <li class="col-md-6 trampo">
-                <h4 class="title-experience">Kommu Comunicação</h4>
-                <p><b>Cargo: </b>Desenvolvedor Frontend (Freelancer)</p>
-                <p><b>Período: </b>Ago/2015 - Nov/2015</p>
-                <p><b>Tecnologias: </b>OpenCart, PHP, html5, css3, javascript & MySQL;</p>
-                <p><b>Atividades: </b>Desenvolvimento frontend, correção de falhas funcionais e visuais (js, responsivo, cross-browser...), customização de temas para wordpress e integração com API SEO e Social marketing.</p>
+                <h4 class="title-experience">Agências de Públicidade</h4>
+                <p><b>Cargo: </b>Desenvolvedor Web Fullstack (Freelancer)</p>
+                <p><b>Período: </b>Fev/2015 - Nov/2015</p>
+                <p><b>Tecnologias: </b>PHP, html5, css3, javascript & MySQL; OpenCart, </p>
+                <p><b>Atividades: </b>Desenvolvimento frontend & backend, correção de falhas funcionais / visuais
+                    (js, responsivo, cross-browser...), customização de temas para wordpress e integração com API SEO e Social marketing.
+                    Desenvolvimento de funcionalidades, manutenção & correção de bugs; implementação e customização backend de lojas online com OpenCart (framework de ecommerce PHP).</p>
             </li>
-			<li class="col-md-6 trampo">
-				<h4 class="title-experience">Veleja</h4>
-				<p><b>Cargo: </b>Desenvolvedor Backend (Freelancer)</p>
-				<p><b>Período: </b>Fev/2015 - Jun/2015</p>
-				<p><b>Tecnologias: </b>OpenCart, PHP, html5, css3, javascript & MySQL;</p>
-				<p><b>Atividades: </b>Desenvolvimento de funcionalidades, manutenção & correção de bugs ; implementar e customizar backend de lojas online com OpenCart (framework de ecommerce PHP).</p>
-			</li>
-		</ul>
+        </ul>
 		<ul class="row list-unstyled">
 			<li class="col-md-6 trampo">
 				<h4 class="title-experience">Surface Lab</h4>
