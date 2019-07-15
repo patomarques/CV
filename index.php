@@ -70,7 +70,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-					<p class="conteudo">Desenvolvedor web desde 2010, com experiência em backend e frontend.<br>
+					<p class="conteudo">Desenvolvedor web desde 2010, com experiência em backend & frontend.<br>
 					Entusiasta em tecnologias de código aberto e no desenvolvimento de sites / aplicações web com PHP (wordpress e laravel).<br>
 					Desenvolvo sites responsivos, aplicações web & customizações voltadas para comércio online.<br>
 					<!--Concepção | Criação | Implementação | Códificação | Integração | Testes | Prototipação | Infraestrutura e Arquitetura de servidor</p>-->
@@ -335,19 +335,20 @@
               <p><b>Atividades:</b> desenvolvimento de ecommerce B2C usando PHP7+, Wordpress / Woocommerce. Manuteção em sites e webstores.</p>
             </li>
           <li class="col-md-6 trampo">
-            <h4 class="title-experience">Ecommerce Developer</h4>
+            <h4 class="title-experience">Ecommerce Developer (Freelancer)</h4>
             <p><b>Cargo:</b> Desenvolvedor Web Fullstack</p>
             <p><b>Período:</b> Jan/2019 - Jun/2019</p>
             <p><b>Tecnologias:</b> PHP7+, Laravel 5+. Html5, css3, bootstrap 3 e 4, javascript, JQuery, VueJs.
               Responsive Design & Api Rest.</p>
             <p><b>Atividades: I.</b> desenvolvimento de um projeto <a href="https://www.significados.com.br/mvp/">mvp (minimum product viable)</a> de ecommerce B2B usando PHP7+.
-              Integração do ecommerce com API (laravel/lumen) de sincronização de dados com plataformas de ERP internas. <b>II.</b> Desenvolvimento e manutenção de um painel gerencial, em Vue Cli, integrado com API Rest.</p>
+              Integração do ecommerce com API (laravel/lumen) de sincronização de dados com plataformas de ERP internas. <b>II.</b> Desenvolvimento e manutenção de um painel gerencial, em Vue Cli, integrado com API Rest.
+            <b>III.</b> Correções nos layouts das páginas para atender as especificações de Responsive Design.</p>
           </li>
             <li class="col-md-6 trampo">
                 <h4 class="title-experience">Idealizza</h4>
                 <p><b>Cargo:</b> Desenvolvedor Web Fullstack</p>
                 <p><b>Período:</b> Mar/2018 - Jan/2019</p>
-                <p><b>Tecnologias:</b> html5, css3, javascript, Angular.js, JQuery, CakePhp2, MySQL & sqlServer.</p>
+                <p><b>Tecnologias:</b> html5, css3, javascript, Angular, JQuery, CakePhp2, MySQL & sqlServer.</p>
                 <p><b>Atividades:</b> desenvolvimento e manutenção de aplicações web: sistemas de EAD & e-commerces;</p>
             </li>
             <li class="col-md-6 trampo">
