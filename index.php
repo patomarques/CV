@@ -73,7 +73,7 @@
 					<p class="conteudo">Desenvolvedor web desde 2010, com experiência em backend e frontend.<br>
 					Entusiasta em tecnologias de código aberto e no desenvolvimento de sites / aplicações web com PHP (wordpress e laravel).<br>
 					Desenvolvo sites responsivos, aplicações web & customizações voltadas para comércio online.<br>
-					Concepção | Criação | Implementação | Códificação | Integração | Testes | Prototipação | Infraestrutura e Arquitetura de servidor</p>
+					<!--Concepção | Criação | Implementação | Códificação | Integração | Testes | Prototipação | Infraestrutura e Arquitetura de servidor</p>-->
 			</div>
 		</div>	
 	</section>
@@ -142,11 +142,11 @@
 						javascript
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 5; $i++){ ?>
+						<?php for($i=0; $i < 4; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>
 						<i class="fa fa-star-half-o" aria-hidden="true"></i>
-						<?php for($i=0; $i < 4; $i++){ ?>
+						<?php for($i=0; $i < 5; $i++){ ?>
 						<i class="fa fa-star-o " aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -177,20 +177,20 @@
 						<?php } ?>
 					</div>
 				</li>
-                <li>
-                    <div class="pull-left">
-                        git
-                    </div>
-                    <div class="pull-right">
-                        <?php for($i=0; $i < 6; $i++){ ?>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        <?php } ?>
+        <li>
+            <div class="pull-left">
+                git
+            </div>
+            <div class="pull-right">
+                <?php for($i=0; $i < 6; $i++){ ?>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                <?php } ?>
 
-                        <?php for($i=0; $i < 4  ; $i++){ ?>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <?php } ?>
-                    </div>
-                </li>
+                <?php for($i=0; $i < 4  ; $i++){ ?>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                <?php } ?>
+            </div>
+        </li>
 				<li>
 					<div class="pull-left">
 						design responsivo
@@ -212,10 +212,10 @@
 						Wordpress
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 7; $i++){ ?>
+						<?php for($i=0; $i < 8; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>																			
-						<?php for($i=0; $i < 3; $i++){ ?>
+						<?php for($i=0; $i < 2; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -250,13 +250,13 @@
 				</li>
 				<li>
 					<div class="pull-left">
-						bootstrap 3+
+						bootstrap 3 e 4
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 8; $i++){ ?>
+						<?php for($i=0; $i < 9; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>									
-						<?php for($i=0; $i < 2; $i++){ ?>
+						<?php for($i=0; $i < 1; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>
 					</div>
@@ -279,21 +279,34 @@
 						Vue.js
 					</div>
 					<div class="pull-right">
-						<?php for($i=0; $i < 5; $i++){ ?>
+						<?php for($i=0; $i < 4; $i++){ ?>
 						<i class="fa fa-star" aria-hidden="true"></i>							
 						<?php } ?>			
-						<i class="fa fa-star-half-o" aria-hidden="true"></i>
-						<?php for($i=0; $i < 4; $i++){ ?>
+						<!--<i class="fa fa-star-half-o" aria-hidden="true"></i>-->
+						<?php for($i=0; $i < 6; $i++){ ?>
 						<i class="fa fa-star-o" aria-hidden="true"></i>
 						<?php } ?>				
 					</div>
 				</li>
+        <li>
+          <div class="pull-left">
+            Angular JS e 2+
+          </div>
+          <div class="pull-right">
+              <?php for($i=0; $i < 5; $i++){ ?>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              <?php } ?>
+            <!--<i class="fa fa-star-half-o" aria-hidden="true"></i>-->
+              <?php for($i=0; $i < 5; $i++){ ?>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              <?php } ?>
+          </div>
+        </li>
 			</ul>		
-			
-			
+
 			<div class="col-md-4">
 				<ul class="list-unstyled">
-					<li>PhpStorm IDE</li>	
+					<li>PhpStorm IDE</li>
 					<li>MySQL Workbench</li>
 					<li>Integração gateway pagamento <br> { PagSeguro, CIELO & PayU  }</li>
 					<li>Métodologia Ágeis : { SCRUM & XP }</li>
@@ -314,9 +327,26 @@
 
         <ul class="list-unstyled row">
             <li class="col-md-6 trampo">
+              <h4 class="title-experience">Independent Software Developer</h4>
+              <p><b>Cargo:</b> Desenvolvedor Web Fullstack</p>
+              <p><b>Período:</b> Jul/2019 - Atualmente</p>
+              <p><b>Tecnologias:</b> PHP7+, Wordpress, Woocommerce. Html5, css3, bootstrap, javascript, JQuery, VueJs.
+                Responsive Design & Api Rest.</p>
+              <p><b>Atividades:</b> desenvolvimento de ecommerce B2C usando PHP7+, Wordpress / Woocommerce. Manuteção em sites e webstores.</p>
+            </li>
+          <li class="col-md-6 trampo">
+            <h4 class="title-experience">Ecommerce Developer</h4>
+            <p><b>Cargo:</b> Desenvolvedor Web Fullstack</p>
+            <p><b>Período:</b> Jan/2019 - Jun/2019</p>
+            <p><b>Tecnologias:</b> PHP7+, Laravel 5+. Html5, css3, bootstrap 3 e 4, javascript, JQuery, VueJs.
+              Responsive Design & Api Rest.</p>
+            <p><b>Atividades: I.</b> desenvolvimento de um projeto <a href="https://www.significados.com.br/mvp/">mvp (minimum product viable)</a> de ecommerce B2B usando PHP7+.
+              Integração do ecommerce com API (laravel/lumen) de sincronização de dados com plataformas de ERP internas. <b>II.</b> Desenvolvimento e manutenção de um painel gerencial, em Vue Cli, integrado com API Rest.</p>
+          </li>
+            <li class="col-md-6 trampo">
                 <h4 class="title-experience">Idealizza</h4>
                 <p><b>Cargo:</b> Desenvolvedor Web Fullstack</p>
-                <p><b>Período:</b> Mar/2018 - Atualmente</p>
+                <p><b>Período:</b> Mar/2018 - Jan/2019</p>
                 <p><b>Tecnologias:</b> html5, css3, javascript, Angular.js, JQuery, CakePhp2, MySQL & sqlServer.</p>
                 <p><b>Atividades:</b> desenvolvimento e manutenção de aplicações web: sistemas de EAD & e-commerces;</p>
             </li>
