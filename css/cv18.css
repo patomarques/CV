@@ -2,7 +2,7 @@ body{
 	padding:  20px 20px 30px;
 	font-family: 'Sahitya', serif;
 	max-width: 1350px;
-	/* background-color: #000;	
+	/* background-color: #000;
 	color: #fff; */
     margin: 0 auto;
 }
@@ -25,26 +25,26 @@ a{
 }
 
 .title-name{
-	font-size: 70px;
+	font-size: 6.4rem;
 	letter-spacing: 2px;
 	font-family: 'Fauna One', serif;
-	word-spacing: 17px;
-	padding-left: 3px;
+	word-spacing: 2px;
 }
 
 .profession{
-	font-size: 40px;	
-	margin-top: -10px;
+	font-size: 3.9rem;
+	margin-top: -14px;
 	font-family: 'Fauna One', serif;
-	word-spacing: 3px;	
+	word-spacing: 4px;
 }
 
 .info-headers{
-	font-size: 18px;
+	font-size: 2rem;
 }
 
-.info-headers li:nth-child(1){
-	padding-left: 14px;
+.info-headers li{
+	padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .info-headers .fa-map-marker{
@@ -52,7 +52,7 @@ a{
 	margin-right: 10px;
 }
 .info-headers .fa-paper-plane{
-	margin: -2px 8px 0 0;		
+	margin: -2px 8px 0 0;
 }
 .info-headers .fa-whatsapp{
 	margin: 0 8px 0 0;
@@ -76,7 +76,7 @@ a{
 
 }
 .info-contact li:nth-child(1){
-	padding-left: 12px;
+	/*padding-left: 12px; */
 }
 
 .img-perfil i{
@@ -168,7 +168,7 @@ a{
 }
 
 .progress-bar-success{
-	background-color: #000;	
+	background-color: #000;
 }
 
 #habilidades li{
